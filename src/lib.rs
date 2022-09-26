@@ -312,7 +312,7 @@ impl RangeSet {
             // Remove this range from the available set
             self.remove(Range {
                 start: base,
-                end: end,
+                end,
             });
 
             // Return out the pointer!
